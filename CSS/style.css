@@ -1,28 +1,66 @@
-header, nav, main {
-	width: 90%;
-	margin:auto;
-	border: 1px solid black;
+header, nav, main, {
+	width: 100%;
+
 }
 
 h1 {
 	font-family:Helvetica;
-	font-size:40px;
+	font-size:50px;
+	color:white;
+	text-transform: uppercase;
+	margin-left:8px;
 }
 
 h2 {
 	font-family:serif;
-	font-size: 20px;
+	font-size: 30px;
+	color: #333333;
+	background-color:#35ea97;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;}
+
+
+h3 {font-size:20px;
+	color:white;
+	background-color:grey;
+	padding-left:10px;
+
+	;
+
+
 }
 
 nav ul
 {	list-style-type: none;
 	text-align: center;
-	font-family: 'Quicksand', sans-serif;}
+	font-family: 'Quicksand', sans-serif;
+	color:#EAC747;
+	background-color:#35ea97;}
 
 
 nav li 
 {	display: inline-block;
 	margin:8px;}
+
+body {
+	background-color:white;
+}
+
+a:-webkit-any-link {
+    color: #333333;
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+ header {
+ 	background-color:#333333;
+ }
+
+ p {
+ 	margin-left:30px;
+ }
+
 
 
 
@@ -42,12 +80,13 @@ nav li
 .picture-circle {
 	background-color: #ccc;
 	width:200px;
-	min-height: 200px;
+	height: 200px;
 	border-radius: 50%;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:40px;
 }
+
 
 .video {
 	background-color: #ccc;
@@ -73,8 +112,10 @@ nav li
 }
 
 .maincontent {
-	width:90%;
+	width:100%;
 	margin: auto;
+	line-height:30px;
+
 
 }
 
